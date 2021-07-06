@@ -1,0 +1,15 @@
+.floating-popup { 
+    background-color:  red;
+    &.active {
+        background-color: green;
+    } 
+}
+
+p {
+    &.one {
+        color: hotpink;
+    }
+    &.two {
+        color: white;
+    }
+}
